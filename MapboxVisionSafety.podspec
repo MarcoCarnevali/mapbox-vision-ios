@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  s.swift_version = '4.2'
+  s.swift_version = '5.0'
 
   s.dependency "MapboxVisionNativeAll/Safety", "#{s.version}"
   s.dependency "MapboxVision", "#{s.version}"
